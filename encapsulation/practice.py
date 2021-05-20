@@ -20,6 +20,7 @@ class Grade():
     @staticmethod
     def main():
         g = Grade(int(input('삼성점수')),int(input('애플점수')),int(input('엘지점수')))
-        print(f' 합격여부: {g.get_grade()}')
+            print(f'삼성의 합격 여부 : {g.get_grade()}')
+
 
 Grade.main()
